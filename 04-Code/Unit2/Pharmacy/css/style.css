@@ -97,3 +97,21 @@ body {
   footer p {
     text-align: center;
   }
+  .nav li a{
+    display: block;
+  }
+  .nav > li{
+    float: left;
+  }
+  .nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+  }
+  .nav li:hover >ul {
+    display: block;
+  }
+
+  .submenu li a{
+    background-color:teal;
+  }

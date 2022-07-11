@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/styleforms.css">
+    <link rel="stylesheet" href="../css/styletable.css">
     <title>Forms</title>
 </head>
 
@@ -15,34 +16,77 @@
         <div class="div-container">
             <h1>PHARMACY</h1>
             <nav>
-                <ul>
+                <ul class="nav">
                     <li class="selected-menu"><a href="../index.html">Home</a></li>
                     <li><a href="ProductService.html">Products &amp; Services</a></li>
                     <li><a href="AboutUs.html">About Us</a></li>
-                    <li><a href="Forms.html">Forms</a></li>
+                    <li><a href="Forms.html">Forms</a>
+                        <ul class="submenu">
+                            <li><a href="contacts.html">Contacts</a></li><br>
+                            <li><a href="Work.html">Work whit us</a></li><br>
+                            <li><a href="Comment.html">Comments</a></li><br>
+                        </ul>
+                    </li>
+
                     <li><a href="Login.html">Login</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-
-    <nav id="menu">
-        <ul>
-            <li><a href="../html/Comment.html">Comments</a></li>
-            <li><a href="../html/contacts.html">Contacts</a></li>
-            <li><a href="../html/Work.html">Work with Us!</a></li>
-        </ul>
-    </nav>
     <article>
         <div class="div-container">
+            <h2>FOMRS</h2>
             <section>
-                <p class="section-img">
-                    <img src="../img/pharmacy.jpg" alt="Mission Pharmacy">
-                    <span>
-                        <br>
-                        <em>Pharmacy</em>
-                    </span>
-                </p>
+                <h3>Select a form</h3>
+                <div id="tabla-precios">
+
+                    <div class="precio-col">
+                        <div class="header-server">
+                            <h3></h3>
+                            <center><p>CONTACTS</p></center>
+                        </div>
+                        <div class="img">
+                            <img src="../img/contact.png" alt="finalin">
+                        </div>
+
+                        <div class="precio-col-comprar">
+                            <a href="contacts.html">Contacts</a>
+                        </div>
+                    </div>
+
+                    <div class="precio-col">
+                        <div class="header-server">
+                            <h3></h3>
+                            <center><p>WORK WITH US</p></center>
+                        </div>
+
+                        <div class="img">
+                            <img src="../img/work.jfif" alt="paracetamol">
+                        </div>
+
+                        <div class="precio-col-comprar">
+                            <a href="Work.html">Work whit us</a>
+                        </div>
+                    </div>
+
+                    <div class="precio-col">
+                        <div class="header-server">
+                            <h3></h3>
+                            <center><p>COMMENTS</p></center>
+                        </div>
+
+                        <div class="img">
+                            <img src="../img/comments.webp" alt="">
+                        </div>
+
+                        <div class="precio-col-comprar">
+                            <a href="Comment.html">Comments</a>
+                        </div>
+                    </div>
+
+                </div>
             </section>
+        </div>
+    </article>
 </body>
 </html>
