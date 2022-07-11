@@ -72,3 +72,23 @@ label {
     width: 100%;
     font-family: 'calibri';
 }
+
+nav#menu {
+    padding: 0;
+}
+
+nav#menu ul li {
+    display: inline;
+}
+
+nav#menu ul li a {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px 4px 0 0;
+}
+
+nav#menu ul li a:hover {
+    background-color: orange;
+}
