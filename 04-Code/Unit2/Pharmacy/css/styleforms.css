@@ -10,13 +10,13 @@ body {
 
 .form-register {
     width: 400px;
-    background: #24303c;
+    background: #d27300;
     padding: 30px;
     margin: auto;
     margin-top: 100px;
     border-radius: 4px;
     font-family: 'calibri';
-    color: white;
+    color: black;
     box-shadow: 7px 13px 37px #000;
 }
 
@@ -27,14 +27,14 @@ body {
 
 .controls {
     width: 100%;
-    background: #24303c;
+    background: #ffd19b;
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;
-    border: 1px solid #1f53c5;
+    border: 1px solid brown;
     font-family: 'calibri';
     font-size: 18px;
-    color: white;
+    color: black;
 }
 
 .form-register p {
@@ -45,21 +45,21 @@ body {
 }
 
 .form-register a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
 .form-register a:hover {
-    color: white;
+    color: black;
     text-decoration: underline;
 }
 
 .form-register .botons {
     width: 100%;
-    background: #1f53c5;
+    background: #893101;
     border: none;
     padding: 12px;
-    color: white;
+    color: black;
     margin: 16px 0;
     font-size: 16px;
 }
@@ -90,5 +90,5 @@ nav#menu ul li a {
 }
 
 nav#menu ul li a:hover {
-    background-color: orange;
+    background-color: #d27300;
 }
