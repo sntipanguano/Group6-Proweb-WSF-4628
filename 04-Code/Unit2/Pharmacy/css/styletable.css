@@ -133,5 +133,9 @@
   .img img{
     width: 100%;
   }
+
+  .precio-col a{
+    text-decoration: none;
+  }
   
  

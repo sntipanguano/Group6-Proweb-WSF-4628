@@ -10,7 +10,7 @@ body {
 
 .form-register {
     width: 400px;
-    background: #d27300;
+    background: #e6de76;
     padding: 30px;
     margin: auto;
     margin-top: 100px;
@@ -27,11 +27,11 @@ body {
 
 .controls {
     width: 100%;
-    background: #ffd19b;
+    background: #ecf3f3f8;
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;
-    border: 1px solid brown;
+    border: 1px solid rgb(55, 83, 206);
     font-family: 'calibri';
     font-size: 18px;
     color: black;
@@ -49,17 +49,17 @@ body {
     text-decoration: none;
 }
 
-.form-register a:hover {
+.form-register .botons:hover {
     color: black;
-    text-decoration: underline;
+    background-color: rgb(124, 208, 187);
 }
 
 .form-register .botons {
     width: 100%;
-    background: #893101;
+    background: #1cada8;
     border: none;
     padding: 12px;
-    color: black;
+    color: rgb(255, 255, 255);
     margin: 16px 0;
     font-size: 16px;
 }
@@ -78,7 +78,7 @@ nav#menu {
 }
 
 nav#menu ul li {
-    display: inline;
+    display: block;
 }
 
 nav#menu ul li a {
