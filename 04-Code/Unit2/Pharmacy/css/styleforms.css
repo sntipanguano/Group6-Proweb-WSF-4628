@@ -92,3 +92,29 @@ nav#menu ul li a {
 nav#menu ul li a:hover {
     background-color: #d27300;
 }
+
+table,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #e6de76;
+    
+}
+td{
+    padding: 10px;
+}
+tr:nth-of-type(1) > th{
+    background-color: orange;
+}
+.botons {
+    width: 100%;
+    background: #1cada8;
+    border: none;
+    padding: 12px;
+    color: rgb(255, 255, 255);
+    margin: 16px 0;
+    font-size: 16px;
+}
+.botons:hover {
+    color: black;
+    background-color: rgb(124, 208, 187);
+}
