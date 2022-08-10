@@ -8,53 +8,54 @@ body {
     background-color: #b2ffff;
 }
 
-.form-register {
+form{
     width: 400px;
     background: #e6de76;
     padding: 30px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 60px;
     border-radius: 4px;
     font-family: 'calibri';
     color: black;
     box-shadow: 7px 13px 37px #000;
 }
 
-.form-register h4 {
+h4 {
     font-size: 22px;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
+    text-align: center;
 }
 
 .controls {
     width: 100%;
-    background: #ecf3f3f8;
+    background: white;
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;
-    border: 1px solid rgb(55, 83, 206);
+    border: 1px solid teal;
     font-family: 'calibri';
     font-size: 18px;
     color: black;
 }
 
-.form-register p {
+p {
     height: 70px;
     text-align: center;
     font-size: 18px;
     line-height: 40px;
 }
 
-.form-register a {
+a {
     color: black;
     text-decoration: none;
 }
 
-.form-register .botons:hover {
+.botons:hover {
     color: black;
     background-color: rgb(124, 208, 187);
 }
 
-.form-register .botons {
+.botons {
     width: 100%;
     background: #1cada8;
     border: none;
@@ -65,9 +66,9 @@ body {
 }
 
 label {
-    margin-left: 8px;
-    font-size: 12px;
-    padding: 5px;
+    margin-left: 1px;
+    font-size: 18px;
+    padding: 2px;
     display: block;
     width: 100%;
     font-family: 'calibri';
@@ -99,22 +100,11 @@ table,td{
     background-color: #e6de76;
     
 }
+
 td{
     padding: 10px;
 }
+
 tr:nth-of-type(1) > th{
     background-color: orange;
-}
-.botons {
-    width: 100%;
-    background: #1cada8;
-    border: none;
-    padding: 12px;
-    color: rgb(255, 255, 255);
-    margin: 16px 0;
-    font-size: 16px;
-}
-.botons:hover {
-    color: black;
-    background-color: rgb(124, 208, 187);
 }
