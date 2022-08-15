@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/styleforms.css">
     <title>Document</title>
+    <script src="../js/validate.js"></script>
 </head>
 
 <body>
@@ -33,21 +34,21 @@
         </div>
     </header>
 
-    <section class="form-register">
+    <form class="form-register">
         <h4>CONTACTOS</h4>
         <label> Nombre Completo: </label>
         <input class="controls" type="text" name="full_name" id="full_name" placeholder="Enter your name" onBlur="validateName()">
         <label> Correo: </label>
         <input class="controls" type="email" name="email" id="email" placeholder="Enter your email">
         <label> Telefono: </label>
-        <input class="controls" type="text" name="phone" id="phone" placeholder="Enter your phone">
+        <input class="controls" type="text" name="phone" id="phone" placeholder="Enter your phone" onBlur="validatePhone()">
         <label> Direccion: </label>
         <input class="controls" type="text" name="address" id="adress" placeholder="Enter your address">
         <label> Mensaje: </label>
         <textarea class="controls" name="message" id="message" placeholder="Enter your message"></textarea>
         <button class="botons" type="submit" value="Enviar">Enviar</button>
 
-    </section>
+    </form>
 
 </body>
 
