@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Documento sin título</title>
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+    <link href="../css/styleforms.css" rel="stylesheet" type="text/css">
+    <link href="../css/stylemenu.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <div class="header">
+        <h2 class="logo"><i class="fas fa-user-circle"></i> Bienvenido: ADMIN</h2>
+        <div class="header-right">
+            <h2 class="logo"><a href="../index.html"><i class="fas fa-sign-out-alt"></i> Salir</a></h2>
+        </div>
+    </div>
+
+
+    <section class="navigation">
+        <nav>
+            <div class="nav-movil">
+                <a id="nav-boton" href="#!">
+                    <span></span>
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li>
+                    <a href="#"><i class="fa fa-fw fa-home"></i> Inicio</a>
+                </li>
+                <li>
+                    <a><i class="fa fa-fw fa-user"></i>PRODUCTOS</a>
+                    <ul class="nav-submenu" id="nav-submenu">
+                        <li><a href="#">INGRESO PRODUCTO</a></li>
+                        <li><a href="#">REPORTES PRODUCTO</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </section>
+
+    <form id="form" class="form-register">
+        <h2 align="center">Productos</h2>
+        <div>
+            <div class="form">
+                <div class="grupo">
+                    <label>Codigo<br>
+                    </label>
+                    <input name="" type="text" required="required" id="codigo" maxlength="100" class="controls"><span
+                        class="barra"></span>
+                </div>
+                <div class="grupo">
+                    <label>Descriptcion<br>
+                    </label>
+                    <input name="" type="text" required="required" id="descripcion" class="controls"><span
+                        class="barra"></span>
+                </div>
+                <div class="grupo">
+                    <label>Medidas<br>
+                    </label>
+                    <input name="" type="text" required="required" id="medidas" placeholder="Ej: metro, kilos, minutos"
+                        class="controls"><span class="barra"></span>
+                </div>
+                <div class="grupo">
+                    <label>Cantidad<br>
+                    </label>
+                    <input name="" type="number" required="required" id="cantidad" class="controls"><span
+                        class="barra"></span>
+                </div>
+                <div class="grupo">
+                    <label>Costo<br>
+                    </label>
+                    <input name="" type="number" required="required" id="costo" class="controls"><span
+                        class="barra"></span>
+                </div>
+                <div class="grupo">
+                    <label>Estado<br>
+                    </label>
+                    <input name="" type="text" required="required" id="estado" placeholder="EJ: activo o inactivo"
+                        class="controls"><span class="barra"></span>
+                </div>
+
+                <button type="submit" class="botons">Ingresar</button>
+                <button type="reset" class="botons">Borrar</button>
+                <p class="warnings" id="warnings"></p>
+            </div>
+        </div>
+    </form>
+    <script src="../js/script2.js"></script><br>
+
+    <lista>
+        <div>
+            <h2>Datos Guardados</h2>
+            <p></p>
+            <div id="imprimir"></div>
+            <table width="800" border="1" id="tablaDatos">
+                <tbody>
+                    <tr>
+                        <td width="200">Codigo</td>
+                        <td width="200">Descripcion</td>
+                        <td width="200">Medidas</td>
+                        <td width="200">Cantidad</td>
+                        <td width="200">Costo</td>
+                        <td width="200">Estado</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+    </lista>
+    <br>
+    <div class="footer">
+        <p>Todos los derechos Reservados © 2022</p>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../js/script3menu.js"></script>
+</body>
+
+</html>
