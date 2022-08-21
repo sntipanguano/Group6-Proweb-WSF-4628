@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../css/styleforms.css">
     <link rel="stylesheet" href="../css/style.css">
     <title>LOG IN</title>
-    <script src="../js/validate.js"></script>
+    <script src="../js/scriptlogin.js"></script>
 </head>
 
 <body>
@@ -33,14 +33,32 @@
             </nav>
         </div>
     </header>
-    <form class="form-register">
+
+    <form id="form" class="form-register">
         <h4>ACCEDER</h4>
-        <label> Correo: </label>
-        <input class="controls" type="email" name="email" id="email" placeholder="Enter you email">
-        <label> Contraseña: </label>
-        <input class="controls" type="password" name="pass" id="pass" placeholder="Enter you password" onBlur="validatePassword()">
-        <button class="botons" type="submit" value="Sing Up">INGRESAR</button>
-        <p><a href="../html/Registro.html">Aún no tienes una cuenta? REGISTRATE AQUÍ!</a></p>
+        <div>
+            <div class="form">
+
+                <div class="grupo">
+                    <label aling="left">Usuario<br>
+                    </label>
+                    <input type="text" name="input" id="user" class="controls" placeholder="Ingresa tu usuario"><span
+                        class="barra"></span>
+
+                </div>
+                <div class="grupo">
+                    <label>Contraseña<br>
+                    </label>
+                    <input type="password" name="input" id="password" class="controls"
+                        placeholder="Ingresa tu contraseña"><span class="barra"></span>
+
+                </div>
+                <button type="submit" class="botons">Ingresar</button>
+                <p><a href="../html/Registro.html">Aún no tienes una cuenta? REGISTRATE AQUÍ!</a></p>
+                <p class="warnings" id="warnings"></p>
+
+            </div>
+        </div>
     </form>
 </body>
 
