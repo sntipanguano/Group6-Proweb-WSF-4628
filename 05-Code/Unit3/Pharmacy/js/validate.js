@@ -39,7 +39,7 @@ function validatePhone() {
 function validateAge() {
   var ageName = document.getElementById('age').value;
   if(!(expressions.age).test(ageName)){
-    alert("Only three digits");
+    windows.alert("Only three digits");
     return false;
   } else {
     return true;
@@ -49,7 +49,7 @@ function validateAge() {
 function validatePassword() {
   var passwordName = document.getElementById('password').value;
   if(!(expressions.password).test(passwordName)){
-    alert("Only 12 digits");
+    windows.alert("Only 12 digits");
     return false;
   } else {
     return true;
