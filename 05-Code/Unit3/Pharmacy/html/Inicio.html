@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Documento sin título</title>
+    <title>Admin Simulation</title>
     <link href="../css/style.css" rel="stylesheet" type="text/css">
     <link href="../css/styleforms.css" rel="stylesheet" type="text/css">
     <link href="../css/stylemenu.css" rel="stylesheet" type="text/css">
@@ -30,13 +30,6 @@
                 <li>
                     <a href="#"><i class="fa fa-fw fa-home"></i> Inicio</a>
                 </li>
-                <li>
-                    <a><i class="fa fa-fw fa-user"></i>PRODUCTOS</a>
-                    <ul class="nav-submenu" id="nav-submenu">
-                        <li><a href="#">INGRESO PRODUCTO</a></li>
-                        <li><a href="#">REPORTES PRODUCTO</a></li>
-                    </ul>
-                </li>
             </ul>
         </nav>
     </section>
@@ -60,7 +53,7 @@
                 <div class="grupo">
                     <label>Medidas<br>
                     </label>
-                    <input name="" type="text" required="required" id="medidas" placeholder="Ej: metro, kilos, minutos"
+                    <input name="" type="text" required="required" id="medidas" placeholder="Ej: g, mg, ml"
                         class="controls"><span class="barra"></span>
                 </div>
                 <div class="grupo">
@@ -72,7 +65,7 @@
                 <div class="grupo">
                     <label>Costo<br>
                     </label>
-                    <input name="" type="number" required="required" id="costo" class="controls"><span
+                    <input name="" type="number" step="0.01" required="required" id="costo" class="controls"><span
                         class="barra"></span>
                 </div>
                 <div class="grupo">
@@ -115,9 +108,6 @@
     <div class="footer">
         <p>Todos los derechos Reservados © 2022</p>
     </div>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="../js/script3menu.js"></script>
 </body>
 
 </html>

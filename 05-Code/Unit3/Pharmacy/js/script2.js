@@ -33,9 +33,9 @@ form.addEventListener("submit", e => {
         warnings += `descripcion no valida.<br>`
         entrar = true
     }
-    if (medidas.value != "metro") {
-        if (medidas.value != "kilos") {
-            if (medidas.value != "metro") {
+    if (medidas.value != "g") {
+        if (medidas.value != "ml") {
+            if (medidas.value != "mg") {
                 warnings += `medida no valida.<br>`
                 entrar = true
             }
