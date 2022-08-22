@@ -19,7 +19,7 @@ form.addEventListener("submit", e=>{
     if(entrar){
         parrafo.innerHTML = warnings;
     }else{
-        window.location.href = "HTML/inicio.html";
+        window.location.href = "../html/Inicio.html";
 		console.log(user.value +" " +password.value)
 		form.reset();
 		
