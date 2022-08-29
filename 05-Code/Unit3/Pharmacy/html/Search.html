@@ -36,7 +36,7 @@
                 <tr>
                     <td>
                         <label for="name">Nombre: </label><br>
-                        <input type="text" id="name" name="Name" placeholder="enter product name" onBlur="validateName()">
+                        <input type="text" id="name" name="name" placeholder="enter product name" onBlur="validateName()">
                     </td>
                     <td>
                         <label for="barcode">Codigo de barras: </label> <br>
@@ -87,9 +87,9 @@
                     </td>
                     <td>
                         <label for="priceBox">Precio por caja:</label>
-                        <input type="text" id="pricebox" name="priceBox" size="2"><br><br>
+                        <input type="text" id="pricebox" name="priceBox" size="2" onBlur="validatePrecio()"><br><br>
                         <label for="priceUnit">PVP:</label>
-                        <input type="text" id="priceunit" name="priceUnit" size="2"><br>
+                        <input type="text" id="priceunit" name="priceUnit" size="2" onBlur="validatePrecio()"><br>
                     </td>
                     <td colspan="2">
                         <label for="description">Descripcion del producto:</label><br>
