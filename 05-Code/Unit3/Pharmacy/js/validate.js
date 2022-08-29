@@ -29,10 +29,10 @@ function validateName() {
 
 function validatePhone() {
   if(isNaN(document.getElementById('phone').value)){ 
-      alert("Only write numbers");
+      alert("En telefono escriba solo numeros");
       return false; 
   } else {
-      return true;
+    return true;
   }
 }
 

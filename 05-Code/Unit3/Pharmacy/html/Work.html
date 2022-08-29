@@ -40,11 +40,11 @@
         <label for="textfield"> Nombre Competo: </label>
         <input class="controls" type="text" name="full_name" id="full_name" placeholder="Enter your name" onBlur="validateName()">
         <label> Edad: </label>
-        <input class="controls" type="number" name="age" id="age" placeholder="Enter your age" onBlur="validateAge()">
+        <input class="controls" type="number" name="age" id="age" pattern="^[0-9]+" placeholder="Enter your age" onBlur="validateAge()">
         <label> Correo: </label>
         <input class="controls" type="email" name="email" id="email" placeholder="Enter your email">
         <label> Telefono: </label>
-        <input class="controls" type="tel" name="phone" id="phone" placeholder="Enter your phone" onBlur="validatePhone()">
+        <input class="controls" type="tel" name="phone" id="phone" placeholder="Enter your phone" maxlength="10" onBlur="validatePhone()">
         <label> Experiencia: </label>
         <textarea class="controls" name="experience" id="experience" placeholder="Enter your Work Experience"></textarea>
         <label> Fecha de nacimiento: </label>
