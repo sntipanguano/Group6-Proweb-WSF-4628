@@ -1,9 +1,7 @@
 var expressions = {
-	full_name: /^[a-zA-ZÀ-ÿ\s]{1,40}$/, // Letras y espacios, pueden llevar acentos.
-  address: /^[a-zA-Z0-9\s]{1,40}$/,
+	full_name: /^[a-zA-ZÀ-ÿ\s]{1,40}$/,
 	password: /^.{4,12}$/, // 4 a 12 digitos.
 	email: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
-	phone: /^\d{7,10}$/,
   priceBox: /^\d{2,6}$/,
   age: /^\d{0-9}$/,
 };
@@ -20,11 +18,13 @@ function validateName() {
 }
 
 function validateAddress() {
-  var expReg = /^[a-zA-Z0-9-]$/;
-  var addressName = document.getElementById("address");
-    if (!expReg.exec(addressName.value)) {
-      alert("Direccion Invalida");
+  var expRegAddress = /^[a-zA-Z0-9\_\-\s]{1,50}$/;
+  var AddressName = document.getElementById("address");
+  if (!expRegAddress.exec(AddressName.value)) {
+      alert("No se admite caracteres especiales");
+      document.getElementById("address").value = "";
       return false;
+
   } else {
       return true;
   }
